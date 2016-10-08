@@ -1,0 +1,1 @@
+mutt -e "set content_type=text/html"
