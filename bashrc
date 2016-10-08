@@ -12,6 +12,9 @@ PS4='+ '
 
 alias mutt='mutt -e "set content_type=text/html"'
 alias ls='ls $@ --color'
+alias epsonprint='lpr -P EPSON_XP-302_303_305_306_Series -o outputorder=reverse
+$@'
+alias tmux="tmux new-session -A -s marty"
 
 eval $(dircolors -b ~/dotfiles/dircolors/dircolors.256dark)
 
